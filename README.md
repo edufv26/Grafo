@@ -1,10 +1,10 @@
-# 🕸️ Grafo y sus Recorridos (DFS, BFS y Rutas Óptimas)
+# Grafo y sus Recorridos (DFS, BFS y Rutas Óptimas)
 
 > Aplicación de escritorio desarrollada en **Java Swing** para la creación dinámica, representación gráfica y análisis de grafos estáticos. Implementa estructuras de datos desde cero para realizar recorridos en profundidad, recorridos en anchura y cálculo de todas las rutas posibles junto con la ruta óptima entre dos nodos.
 
 ---
 
-## 📸 Demostración Visual
+##  Demostración Visual
 
 <p align="center">
   <img src="images/demo-grafo.png" alt="Interfaz principal mostrando el grafo dibujado y sus recorridos" width="800px">
@@ -12,7 +12,7 @@
 
 ---
 
-## 🚀 Características Principales
+##  Características Principales
 
 * **Generación Dinámica de Grafos:** Configuración interactiva de la cantidad de nodos y asignación de nombres personalizados[cite: 2, 3].
 * **Renderizado Gráfico (`Graphics`):** Dibujo automático de vértices y aristas sobre un `JPanel` utilizando coordenadas calculadas con `Math.random()` y matriz de adyacencia[cite: 6, 15].
@@ -22,7 +22,7 @@
 
 ---
 
-## 🛠️ Tecnologías y Estructuras Utilizadas
+##  Tecnologías y Estructuras Utilizadas
 
 * **Lenguaje:** Java (JDK)
 * **Interfaz Gráfica:** Java Swing (`JFrame`, `JPanel`, `JTextArea`, `JTextField`, `JButton`)[cite: 3, 6]
@@ -34,7 +34,7 @@
 
 ---
 
-## 📂 Arquitectura del Proyecto
+## Arquitectura del Proyecto
 
 El código fuente dentro del paquete `Proyecto` se estructura en las siguientes clases:
 
