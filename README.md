@@ -14,23 +14,23 @@
 
 ##  Características Principales
 
-* **Generación Dinámica de Grafos:** Configuración interactiva de la cantidad de nodos y asignación de nombres personalizados[cite: 2, 3].
-* **Renderizado Gráfico (`Graphics`):** Dibujo automático de vértices y aristas sobre un `JPanel` utilizando coordenadas calculadas con `Math.random()` y matriz de adyacencia[cite: 6, 15].
-* **Recorrido en Profundidad (DFS):** Exploración completa del grafo implementando **Pilas Estáticas (LIFO)**[cite: 6, 11, 13].
-* **Recorrido en Anchura (BFS):** Exploración por niveles implementando **Colas Estáticas (FIFO)**[cite: 6, 11, 12].
-* **Búsqueda de Rutas y Ruta Óptima:** Algoritmo recursivo apoyado con `HashSet` y `ArrayList` para encontrar todos los caminos posibles entre un nodo origen ($X$) y un nodo destino ($Y$), destacando la mejor ruta[cite: 6, 10, 16].
+* **Generación Dinámica de Grafos:** Configuración interactiva de la cantidad de nodos y asignación de nombres personalizados.
+* **Renderizado Gráfico (`Graphics`):** Dibujo automático de vértices y aristas sobre un `JPanel` utilizando coordenadas calculadas con `Math.random()` y matriz de adyacencia.
+* **Recorrido en Profundidad (DFS):** Exploración completa del grafo implementando **Pilas Estáticas (LIFO)**.
+* **Recorrido en Anchura (BFS):** Exploración por niveles implementando **Colas Estáticas (FIFO)**.
+* **Búsqueda de Rutas y Ruta Óptima:** Algoritmo recursivo apoyado con `HashSet` y `ArrayList` para encontrar todos los caminos posibles entre un nodo origen ($X$) y un nodo destino ($Y$), destacando la mejor ruta.
 
 ---
 
 ##  Tecnologías y Estructuras Utilizadas
 
 * **Lenguaje:** Java (JDK)
-* **Interfaz Gráfica:** Java Swing (`JFrame`, `JPanel`, `JTextArea`, `JTextField`, `JButton`)[cite: 3, 6]
+* **Interfaz Gráfica:** Java Swing (`JFrame`, `JPanel`, `JTextArea`, `JTextField`, `JButton`)
 * **Estructuras de Datos (Implementación Propia):**
-  * **Matriz de Adyacencia y Arreglos:** Almacenamiento de conexiones y nombres de nodos[cite: 6, 8].
-  * **Pila Estática (`Pila.java`):** Control de nodos visitados en DFS[cite: 6, 7, 13].
-  * **Cola Estática (`Cola.java`):** Control de nodos visitados en BFS[cite: 6, 7, 12].
-* **Colecciones de Java:** `ArrayList` y `HashSet` para gestión de rutas y prevención de ciclos infinitos[cite: 6, 10].
+  * **Matriz de Adyacencia y Arreglos:** Almacenamiento de conexiones y nombres de nodos.
+  * **Pila Estática (`Pila.java`):** Control de nodos visitados en DFS.
+  * **Cola Estática (`Cola.java`):** Control de nodos visitados en BFS.
+* **Colecciones de Java:** `ArrayList` y `HashSet` para gestión de rutas y prevención de ciclos infinitos.
 
 ---
 
@@ -38,10 +38,10 @@
 
 El código fuente dentro del paquete `Proyecto` se estructura en las siguientes clases:
 
-* `VentanaGrafo.java`: Interfaz gráfica principal (`JFrame`) y manejo de eventos de usuario[cite: 7].
-* `GrafoEstatico.java`: Lógica central del grafo, matriz de adyacencia, algoritmos de recorrido (`profundidad`, `anchura`) y cálculo de rutas (`Rutas`, `RutasDFS`)[cite: 7, 8, 9, 10, 11].
-* `Pila.java`: Estructura de datos estática tipo LIFO[cite: 7, 13].
-* `Cola.java`: Estructura de datos estática tipo FIFO[cite: 7, 12].
+* `VentanaGrafo.java`: Interfaz gráfica principal (`JFrame`) y manejo de eventos de usuario.
+* `GrafoEstatico.java`: Lógica central del grafo, matriz de adyacencia, algoritmos de recorrido (`profundidad`, `anchura`) y cálculo de rutas (`Rutas`, `RutasDFS`).
+* `Pila.java`: Estructura de datos estática tipo LIFO.
+* `Cola.java`: Estructura de datos estática tipo FIFO.
 
 ---
 
@@ -49,4 +49,12 @@ El código fuente dentro del paquete `Proyecto` se estructura en las siguientes 
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/tu-usuario/nombre-de-tu-repo.git](https://github.com/tu-usuario/nombre-de-tu-repo.git)
+   git clone https://github.com/edufv26/Grafo.git
+	```
+2. ** Abrir NetBeans:**
+
+Abre Apache NetBeans IDE, ve al menú superior y selecciona File > Open Project (o usa el acceso directo), busca la carpeta Grafo que acabas de clonar y ábrela.
+
+3. **Ejecutar el proyecto:**
+
+Selecciona el proyecto en el panel izquierdo de NetBeans y presiona la tecla F6 (o dale clic al botón verde de Run arriba en la barra de herramientas) para compilar y lanzar tu ventana de grafos.
