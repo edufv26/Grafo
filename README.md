@@ -51,7 +51,7 @@ El código fuente dentro del paquete `Proyecto` se estructura en las siguientes 
    ```bash
    git clone https://github.com/edufv26/Grafo.git
 	```
-2. ** Abrir NetBeans:**
+2. **Abrir NetBeans:**
 
 Abre Apache NetBeans IDE, ve al menú superior y selecciona File > Open Project (o usa el acceso directo), busca la carpeta Grafo que acabas de clonar y ábrela.
 
